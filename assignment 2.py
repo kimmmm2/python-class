@@ -1,29 +1,17 @@
-num1 = float(input("Enter first number: "))
-operator = input("Enter operator ( +, -, *, /): ")
-num2 = float(input("Enter second number: "))
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
+operator = input("Enter operator( +, -, *, /): ")
+
+
 
 if operator == "+":
-    result = num1 + num2
-    print("result:", result)
-
-
+    print(first + second)
 elif operator == "-":
-    result = num1 - num2
-    print("Result:",result)
-
-
-elif operator =="*":
-    result = num1 * num2
-    print("Result:", result)
-
-
+    print(first - second)
+elif operator == "*":
+    print(first * second)
 elif operator == "/":
-    if num2 != 0:
-        result = num1/num2
-        print("Result:", result)
+    print(first / second)
 
-    else:
-        print("Error: Cannot divide by zero.")
 
-else:
-    print("Invalid operator.")
+

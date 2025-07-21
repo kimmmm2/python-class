@@ -1,9 +1,8 @@
 letter = input("Enter a letter: ")
-letter = letter.lower()
-vowels = ['a', 'e', 'i', 'o', 'u']
-
-
-if letter in vowels:
-    print("it is a vowel.")
+if letter == "a"  or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+    print("vowel")
 else:
-    print("It is a constant.")
+    print("consonant")
+
+
+
